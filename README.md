@@ -1,16 +1,17 @@
-# Calendario Interactivo
+# Proyecto Calendario 📅
 
-Un proyecto web de calendario interactivo desarrollado con HTML, CSS y JavaScript. 
+Un calendario interactivo hecho desde cero con HTML, CSS y JavaScript puro.
 
-## Características Principales
-- **Interfaz Visual:** Interfaz moderna y adaptativa.
-- **Días Feriados y Año Bisiesto:** Lógica implementada para manejo correcto de los días.
-- **Persistencia Local (opcional):** Capacidad de adaptación para guardar estados localmente.
+La idea de este proyecto es tener un calendario piola, que se vea bien en cualquier pantalla y que maneje sin problemas cosas como los años bisiestos y los feriados.
 
-## Configuración y Uso
-1. Clona el repositorio.
-2. Abre el archivo `index.html` en tu navegador web.
-3. No requiere instalación de dependencias, es un proyecto Vanilla JS.
+## Qué tiene:
+- Un diseño minimalista y moderno.
+- Remarca el día actual y los feriados.
+- Todo hecho con código nativo (Vanilla JS), sin dependencias ni librerías pesadas.
+- Está pensado para poder meterle algunas cosas más adelante, como guardar datos localmente y un modo oscuro.
+
+## Para probarlo
+Súper fácil: te bajás el código y haces doble clic en `index.html` para abrirlo en tu navegador. Nada de andar instalando cosas.
 
 ## Licencia
-Distribuido bajo la Licencia MIT. Ver `LICENSE` para más información.
+Licencia MIT. Podés usar este código para lo que necesites, modificarlo o compartirlo.
