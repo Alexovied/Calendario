@@ -1,23 +1,23 @@
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# --- PYTHON (Archivos temporales) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
 
-# IDE and Editors
+# --- VS CODE (Configuraciones de entorno) ---
 .vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
-# Node (just in case it's used later)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# --- WINDOWS (Basura del sistema) ---
+Thumbs.db
+desktop.ini
+
+# --- EXCLUSIONES CRÍTICAS PWD ---
+# No subir archivos ejecutables ni pesados
+*.exe
+*.msi
+*.bin
+*.pdf_preview (temporales)
+
+# --- CARPETAS DE DATOS TEMPORALES ---
+/backend/__pycache__/
