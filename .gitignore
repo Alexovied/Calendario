@@ -1,27 +1,6 @@
-# --- NODE / FRONTEND (Por si agregas dependencias luego) ---
-node_modules/
-
-# --- PYTHON (Archivos temporales) ---
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-.env
-
-# --- VS CODE (Configuraciones de entorno) ---
+# --- VS CODE ---
 .vscode/
 
-# --- WINDOWS / MAC (Basura del sistema) ---
+# --- WINDOWS ---
 Thumbs.db
 desktop.ini
-.DS_Store
-
-# --- EXCLUSIONES CRÍTICAS PWD ---
-# No subir archivos ejecutables ni pesados
-*.exe
-*.msi
-*.bin
-*.pdf_preview
-
-# --- CARPETAS DE DATOS TEMPORALES ---
-/backend/__pycache__/
