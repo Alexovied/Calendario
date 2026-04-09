@@ -1,17 +1,49 @@
-# Proyecto Calendario 📅
+# Proyecto Integrador Anual: PDISC / PWD (2026)
+EEST N°1 "Eduardo Ader" - 7° 2º Año - Prof. York / Prof. Balda
 
-Un calendario interactivo hecho desde cero con HTML, CSS y JavaScript puro.
+## 📖 Descripción del Proyecto
+Este proyecto consiste en un **Calendario Interactivo**, una herramienta web organizativa enfocada en la facilidad de uso y la adaptabilidad. Resuelve la necesidad de llevar un control de fechas y eventos, orientándose principalmente al sector educativo y de uso personal. Actualmente incluye un formato dinámico con modos visuales y en el futuro se planea integrar almacenamiento de datos de forma persistente.
 
-La idea de este proyecto es tener un calendario piola, que se vea bien en cualquier pantalla y que maneje sin problemas cosas como los años bisiestos y los feriados.
+## 👥 Equipo de Desarrollo
+- **Alex Oviedo** - (Líder de Proyecto / Frontend / Backend)
+- [Nombre Integrante 2] - (Fullstack / Documentación)
+- [Nombre Integrante 3] - (Frontend / Testing)
 
-## Qué tiene:
-- Un diseño minimalista y moderno.
-- Remarca el día actual y los feriados.
-- Todo hecho con código nativo (Vanilla JS), sin dependencias ni librerías pesadas.
-- Está pensado para poder meterle algunas cosas más adelante, como guardar datos localmente y un modo oscuro.
+## 💻 Stack Tecnológico
+- **Lenguaje:** JavaScript Vanilla (Actual) / Python 3.11+ (Backend)
+- **Framework Web:** Flask (Orientación PWD)
+- **Base de Datos:** MySQL / MariaDB (XAMPP)
+- **Entorno:** Visual Studio Code
+- **Control de Versiones:** Git / GitHub
 
-## Para probarlo
-Súper fácil: te bajás el código y haces doble clic en `index.html` para abrirlo en tu navegador. Nada de andar instalando cosas.
+## 🏗️ Arquitectura del Sistema
+Este proyecto sigue una Arquitectura de Tres Capas:
+- **Capa de Presentación (Frontend):** HTML5, CSS3 puro y JavaScript.
+- **Capa de Negocio (Backend):** Lógica en Python/Flask (próxima integración).
+- **Capa de Datos:** Persistencia en MySQL mediante sentencias SQL puras (evitar ORMs para la defensa técnica).
 
-## Licencia
-Licencia MIT. Podés usar este código para lo que necesites, modificarlo o compartirlo.
+## 📂 Estructura del Repositorio
+```text
+Calendario/
+├── css/                # Hojas de estilo
+├── js/                 # Código JavaScript
+├── index.html          # Vista HTML principal
+├── .gitignore          # Archivos excluidos (venv, __pycache__)
+├── LICENSE             # Licencia MIT del colegio
+└── README.md           # Este archivo
+```
+*(Nota: la estructura irá mutando hacia la recomendada por la cátedra al integrar Flask `src/app.py`)*
+
+## 🚀 Instalación y Ejecución
+1. Clonar repositorio:
+   ```bash
+   git clone https://github.com/Alexovied/Calendario.git
+   ```
+
+2. Ejecución de la etapa Front-End actual:
+   - Simplemente abre el archivo `index.html` en cualquier navegador web.
+
+*(Los pasos 3 y 4 de creación de entorno virtual y ejecución de Flask con base de datos se aplicarán en la siguiente etapa del desarrollo).*
+
+## 📄 Licencia
+Este proyecto se distribuye bajo la licencia MIT. Ver archivo `LICENSE`.
