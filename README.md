@@ -6,12 +6,10 @@ Este proyecto consiste en un **Calendario Interactivo**, una herramienta web org
 
 Equipo de Desarrollo
 - **Alex Oviedo** - (Líder de Proyecto / Frontend / Backend)
-- [Nombre Integrante 2] - (Fullstack / Documentación)
-- [Nombre Integrante 3] - (Frontend / Testing)
+
 
 Stack Tecnológico
 - **Lenguaje:** JavaScript Vanilla (Actual) / Python 3.11+ (Backend)
-- **Framework Web:** Flask (Orientación PWD)
 - **Base de Datos:** MySQL / MariaDB (XAMPP)
 - **Entorno:** Visual Studio Code
 - **Control de Versiones:** Git / GitHub
@@ -19,7 +17,7 @@ Stack Tecnológico
 Arquitectura del Sistema
 Este proyecto sigue una Arquitectura de Tres Capas:
 - **Capa de Presentación (Frontend):** HTML5, CSS3 puro y JavaScript.
-- **Capa de Negocio (Backend):** Lógica en Python/Flask (próxima integración).
+- **Capa de Negocio (Backend):** Lógica en Python (próxima integración).
 - **Capa de Datos:** Persistencia en MySQL mediante sentencias SQL puras (evitar ORMs para la defensa técnica).
 
 Estructura del Repositorio
